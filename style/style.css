@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.logo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    color: #22262A;
+}
+
+.menu-list_item {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.menu-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+
+.fa-heart {
+    margin: 0 20px;
+}
+
+#hero {
+    background: url("../image/bghero/1 1.png");
+    min-height: 745px;
+}
+.hero-item {
+    position: relative;
+    min-height: 745px;
+}
+.hero-item_content{
+    position: absolute;
+    right: 230px;
+    bottom: 100px;
+}
+.new-trend{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+.hero-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+    color: #22262A;
+}
+.hero-description{
+    display: block;
+    margin-bottom: 27px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+.hero-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #22262A;
+    padding: 5px 30px;
+    margin-right: 35px;
+}
+#category {
+    padding-top: 120px;
+}
+.col-6 {
+    width: 50%;
+    padding: 0 10px;
+}
+#category .row {
+    margin: 0 -15px;
+}
+.female-img {
+    display: flex;
+   margin: 20px 12px 0 12px;
+}
+.female-img_col-6 {
+    width: 50%;
+    padding: 0 12px
+}
+.category-image_woman{
+    width: 100%;
+}
